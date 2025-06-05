@@ -97,14 +97,14 @@ header a:hover
         --imght: 110px;
         --imgwd: 180px;
     } */
-    #id2
+    /* #id2
     {
         display: flex;
         flex-direction: column;
         justify-content:start;
         align-items: start;
         padding: 40px;
-    }
+    } */
 }
 
 @media (max-width: 680px) and (min-width: 560px)
@@ -163,13 +163,21 @@ header a:hover
 
 @media (max-width: 465px)
 {
-    header a
+    #id1, #id2, #id3, #id4, #id5, #id6, #a2 p, input, textarea
     {
-        font-size:xx-small;
-    }
+        font-size: smaller;
+    } 
     header
     {
-        font-size: 6px;
+        height:100px;
+    }
+    header a
+    {
+        font-size: 7.5px;
+    }
+    header h1
+    {
+        font-size:medium;
     }
     html 
     {
@@ -192,6 +200,31 @@ header a:hover
     {
         font-size: x-small;
     } */
+}
+
+@media (max-width: 420px)
+{
+    #id1, #id2, #id3, #id4, #id5, #id6, #a2 p, input, textarea
+    {
+        font-size: x-small;
+    }  
+    header
+    {
+        height:100px;
+    }
+    header a
+    {
+        font-size: 7px;
+    }
+    header h1
+    {
+        font-size:smaller;
+    }
+    html 
+    {
+        --projbtnht: 4px;
+        --projbtnwd: 100px;
+    }
 }
 
 #id1
