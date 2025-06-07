@@ -417,17 +417,17 @@ header a:hover
 #pbBBB
 {
     background-color:rgb(114, 28, 167 );
-    width: var(--pb20per);
+    width: var(--pb100per);
     height: 20px;
-    animation: pb20 2s ease-in;
+    animation: pb100 2s ease-in;
 }
 
 #pbCCC
 {
     background-color:rgb(226, 198, 43);
-    width: var(--pb20per);/*change with progress*/
+    width: var(--pb80per);/*change with progress*/
     height: 20px;
-    animation: pb20 2s ease-in;
+    animation: pb80 2s ease-in;
 }
 
 #pbDDD
